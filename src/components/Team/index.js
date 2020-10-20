@@ -12,10 +12,10 @@ function TeamBlock() {
   const { i18n: { language: lang } } = useTranslation();
   return (
     <div className="conainer">
-      <ParallaxTitle
+      {/* <ParallaxTitle
         text1={teamData[lang].title.header[0]}
         text2={teamData[lang].title.header[1]}
-      />
+      /> */}
       <TeamBlockPhoto />
       <div className="container mb-5">
         <TeamTitle titleData={teamData[lang].title} />
